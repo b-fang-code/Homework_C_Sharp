@@ -59,8 +59,8 @@ int N = int.Parse(Console.ReadLine()!);
 int N2 = 1;
 while (N2 <= N)
 {
-    if (N2%2==0)
-    Console.Write($"{N2} ");
+    if (N2 % 2 == 0)
+        Console.Write($"{N2} ");
     N2++;
 }
 
