@@ -54,15 +54,20 @@ else
 
 // ЗАДАЧА 4: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
+
 Console.WriteLine("Введите число: ");
 int N = int.Parse(Console.ReadLine()!);
 int N2 = 1;
-while (N2 < N)
+while (N2 <= N)
 {
-    if (N2%2==0)
-    Console.Write($"{N2} ");
+    if (N2 % 2 == 0)
+    {
+        Console.Write($"{N2} ");
+    }
+
     N2++;
 }
+
 
 
 
